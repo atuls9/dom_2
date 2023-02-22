@@ -28,8 +28,8 @@ function additem(e){
     deletebtn.className = ('btn btn-danger btn-sm float-right delete')
     deletebtn.appendChild(document.createTextNode('X'))
     var editbtn = document.createElement('button');
-    editbtn.className = ('btn btn-success float-right');
-    editbtn.appendChild(document.createTextNode('Edit'))
+    editbtn.className = ('btn btn-success btn-sm float-right');
+    editbtn.appendChild(document.createTextNode('EDIT'))
     //append button to li
     li.appendChild(deletebtn)
     li.appendChild(editbtn)
